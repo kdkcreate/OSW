@@ -1,0 +1,13 @@
+name = "osw-weather-api"
+main = "worker.js"
+compatibility_date = "2026-10-21"
+
+# Set verified feed keys and the real Pages origin in the Cloudflare dashboard.
+# Keep ADAFRUIT_IO_KEY as an encrypted Cloudflare secret; never add it here.
+[vars]
+ADAFRUIT_IO_USERNAME = "Kdkcreate98"
+TEMPERATURE_FEED_KEY = "REPLACE_WITH_VERIFIED_OSW_T_FEED_KEY"
+HUMIDITY_FEED_KEY = "REPLACE_WITH_VERIFIED_OSW_H_FEED_KEY"
+PRESSURE_FEED_KEY = "REPLACE_WITH_VERIFIED_OSW_P_FEED_KEY"
+PRESSURE_SENSOR_INSTALLED = "false"
+ALLOWED_ORIGIN = "https://YOUR-GITHUB-USERNAME.github.io"
